@@ -1,0 +1,332 @@
+{
+  "site": {
+    "logo_mark": "SSES",
+    "logo_image": "assets/logo.png",
+    "title": "Smart & Sustainable Energy Systems Lab",
+    "subtitle": "Military Institute of Science and Technology"
+  },
+
+
+
+
+  "branding": {
+    "ribbon_bg": "#0d1224",
+
+    "hero_background_type": "image",
+    "hero_background_value": "",
+    "hero_background_image": "assets/BannerImg.jpg"
+  },
+
+
+
+
+
+  "menu": [
+    {
+    "label": "About",
+    "link": "pages/about/about.html",
+    "submenu": [
+        { "label": "Overview", "link": "pages/about/about.html#overview" },
+        { "label": "Mission & Vision", "link": "pages/about/about.html#mission" },
+        { "label": "Research Areas", "link": "pages/about/about.html#research" },
+        { "label": "Industry Partners", "link": "pages/about/about.html#partners" },
+        { "label": "Facilities", "link": "pages/about/about.html#facilities" },
+        { "label": "Contact & Directions", "link": "pages/about/about.html#contact" }
+    ]
+    },
+
+    {
+  "label": "People",
+  "link": "pages/people/people.html",
+  "submenu": [
+    { "label": "Leadership", "link": "pages/people/people.html#leaders" },
+    { "label": "Researchers", "link": "pages/people/people.html#researchers" },
+    { "label": "Student & Research Team", "link": "pages/people/people.html#group" }
+  ]
+}
+,
+
+    {
+      "label": "Research Projects",
+      "link": "#",
+      "submenu": [
+        { "label": "Ongoing", "link": "pages/research/ongoing_list.html" },
+        { "label": "Completed", "link": "#" }
+      ]
+    }
+  ],
+
+
+
+
+
+
+
+  
+  "hero": {
+    "title": "Advancing the Future of Sustainable Energy Systems",
+    "text": "The Smart and Sustainable Energy Systems Lab connects students, researchers, and industry partners to develop resilient, low-carbon infrastructure for communities around the world.",
+
+    "buttons": [
+      { "label": "Explore Our Servies", "link": "#" },
+      { "label": "Partner with Us", "link": "#" }
+    ],
+
+    "numbers_title": "",
+    "numbers": [
+      
+    ],
+
+    "tagline": ""
+  },
+
+
+"news_events": {
+    "background_type": "color",
+    "background_value": "#080A21",
+    "background_image": "assets/news-events-bg.jpg",
+
+    "gallery": [
+      {
+        "image": "assets/galary/IMG_20251111_111254.jpg",
+        "caption": "Lab testing session - 2025"
+      },
+      {
+        "image": "assets/galary/IMG_20251111_111313.jpg",
+        "caption": "Industry collaboration meeting"
+      },
+      {
+        "image": "assets/galary/IMG_20251111_155857.jpg",
+        "caption": "Workshop on renewable systems"
+      }
+    ],
+
+    "news": {
+      "section_title": "Latest News",
+      "items": [
+        {
+          "title": "Center launches microgrid living lab on campus",
+          "text": "A new testbed will allow students and partners to evaluate real-time control strategies for resilient microgrids.",
+          "link": "#"
+        },
+        {
+          "title": "Students win international competition for grid analytics",
+          "text": "A multidisciplinary team developed a machine-learning model to anticipate distribution network congestion.",
+          "link": "#"
+        }
+      ],
+      "view_all_link": "#"
+    },
+
+    "events": {
+      "section_title": "Upcoming Events",
+      "items": [
+        {
+          "month": "JAN",
+          "day": "16",
+          "title": "Energy Futures Colloquium",
+          "text": "Guest lecture on long-duration storage technologies.",
+          "link": "#"
+        },
+        {
+          "month": "FEB",
+          "day": "05",
+          "title": "Industry Networking Night",
+          "text": "Connect with partner organizations and alumni.",
+          "link": "#"
+        },
+        {
+          "month": "MAR",
+          "day": "21",
+          "title": "Graduate Research Expo",
+          "text": "Poster session featuring student-led research projects.",
+          "link": "#"
+        }
+      ],
+      "view_all_link": "#"
+    }
+  },
+
+
+
+
+
+  "highlights": {
+    "title": "What We Do",
+    "subtitle": "The center integrates education, research, and industry engagement to prepare the next generation of energy professionals.",
+
+    "background_type": "color", 
+    "background_value": "linear-gradient(135deg, #1e293b, #0f172a)", 
+    "background_image": "assets/highlights-bg.jpg",
+
+    "cards": [
+      {
+        "title": "Educate",
+        "text": "Students gain hands-on experience in energy systems, grid modernization, and sustainable infrastructure through curated curricula and design projects.",
+        "link_label": "Learn about our programs",
+        "link": "#"
+      },
+      {
+        "title": "Innovate",
+        "text": "Interdisciplinary teams collaborate on applied research...",
+        "link_label": "Explore research areas",
+        "link": "#"
+      },
+      {
+        "title": "Collaborate",
+        "text": "Industry partners co-create projects...",
+        "link_label": "View industry partnerships",
+        "link": "#"
+      }
+    ]
+  },
+
+  "partners": {
+    "title": "Strategic Partners",
+    "subtitle": "Our affiliates support research, workforce development, and large-scale demonstrations.",
+
+    "background_type": "color",
+    "background_value": "#756E41",
+    "background_image": "assets/partners/partners-bg.jpg",
+
+    "groups": [
+        
+      {"group_title": "Grid-Scale Partners",
+        "items": [
+          {
+            "name": "Apex Power",
+            "logo": "assets/partners/apex.png",
+            "link": "#"
+          },
+          {
+            "name": "Northline Energy",
+            "logo": "assets/partners/northline.png",
+            "link": "#"
+          },
+          {
+            "name": "Metro Utilities",
+            "logo": "assets/partners/metro.png",
+            "link": "#"
+          }
+        ]
+      },
+
+      {
+        "group_title": "Technology Partners",
+        "items": [
+          { "name": "VoltWorks", "logo": "assets/partners/voltworks.png" },
+          { "name": "Solara Systems", "logo": "assets/partners/solara.png" },
+          { "name": "Aurora Drives", "logo": "assets/partners/aurora.png" }
+        ]
+      },
+
+      {
+        "group_title": "Innovation Partners",
+        "items": [
+          { "name": "BrightFuture Labs", "logo": "assets/partners/brightfuture.png" },
+          { "name": "NextGrid Analytics", "logo": "assets/partners/nextgrid.png" },
+          { "name": "Urban Resilience Co.", "logo": "assets/partners/urban.png" }
+        ]
+      }
+      
+    ]
+  },
+
+  "departments": {
+    "background_type": "color", 
+    "background_value": "linear-gradient(135deg, #1e293b, #0f172a)",
+    "background_image": "assets/departments-bg.jpg",
+
+    "items": [
+      {
+        "name": "Electrical Electronic and Communication Engineering",
+        "link": "#"
+      },
+      {
+        "name": "Civil Engineering",
+        "link": "#"
+      },
+      {
+        "name": "Mechanical Engineering",
+        "link": "#"
+      },
+      {
+        "name": "Industrial & Production Engineering",
+        "link": "#"
+      }
+    ]
+  },
+
+
+  "footer": {
+  "background_type": "color",
+  "background_value":  "linear-gradient(to top, #1a0e0e, #331C1C, #5c3a3a",
+  "background_image": "",
+
+  "text_color": "#0d1224",
+  "font_size": "0.9rem",
+
+  "logo": {
+    "mark": "SSES",
+    "image": "assets/logoF.jpg",
+    "title": "Smart & Sustainable Energy Systems Lab",
+    "subtitle": "",
+    
+    "text_color": "#F5FAFC",
+    "font_size": "1rem"
+  },
+
+  "address": [
+    "Military Institute of Science and Technology",
+    "Mirpur Cantonment, Dhaka-1216"
+  ],
+
+  "address_style": {
+    "text_color": "#F5FAFC",
+    "font_size": "0.85rem"
+  },
+
+  "social": {
+    "facebook": "#",
+    "instagram": "#",
+    "linkedin": "#",
+    "x": "#",
+    "youtube": "#"
+  },
+
+  "social_style": {
+    "text_color": "#F5FAFC",
+    "font_size": "0.85rem"
+  },
+
+  "columns": [
+    {
+      "title": "Resources",
+      "title_style": { "text_color": "#F5FAFC", "font_size": "0.95rem" },
+      "links": [
+        { "label": "News", "link": "#" },
+        { "label": "Employment", "link": "#" },
+        { "label": "Internal Resources", "link": "#" }
+      ],
+      "link_style": { "text_color": "#F5FAFC", "font_size": "0.85rem" }
+    },
+    {
+      "title": "Campus Resources",
+      "title_style": { "text_color": "#F5FAFC", "font_size": "0.95rem" },
+      "links": [
+        { "label": "Maps & Directions", "link": "#" },
+        { "label": "Parking & Transportation", "link": "#" },
+        { "label": "Library", "link": "#" }
+      ],
+      "link_style": { "text_color": "#F5FAFC", "font_size": "0.85rem" }
+    }
+  ],
+
+  "bottom": {
+    "text": "© 2025 Military Institute of Science and Technology – Smart & Sustainable Energy System Lab . All rights reserved."
+  }
+}
+
+
+  
+}

@@ -1,0 +1,135 @@
+{
+
+    "hero": {
+    "background_type": "image",
+    "background_value": "",
+    "background_image": "../../assets/galary/IMG_20251111_153306.jpg",
+    "overlay": true,
+    "overlay_color": "rgba(0,0,0,0.45)"
+    },
+
+    "background_type": "gradient",
+    "background_value": "linear-gradient(135deg, #0d1224, #09101f)",
+
+    "title": "Our People",
+    "subtitle": "Meet the team behind the Smart & Sustainable Energy Systems Lab",
+
+  "sections": [
+    {
+      "id": "leaders",
+      "type": "leader",
+      "title": "Leadership",
+      "background_type": "color",
+      "background_value": "#050816",
+      "background_image": "",
+      "title_color": "#e5e7eb",
+      "text_color": "#cbd5e1",
+      "title_size": "1.6rem",
+      "font_size": "0.95rem",
+
+      "image_width": "260px",
+      "image_shape": "rounded",
+
+      "items": [
+        {
+          "name": "Dr. Example PI",
+          "role": "Principal Investigator",
+          "image": "../../assets/galary/IMG_20251111_153306.jpg",
+          "image_side": "left",
+          "image_width": "300px",
+          "image_shape": "rounded",
+          "description": [
+            "Dr. Example PI leads the Smart & Sustainable Energy Systems Lab.",
+            "His research interests include power systems, renewable integration, and grid modernization."
+          ],
+          "links": [
+            { "label": "Google Scholar", "link": "#" },
+            { "label": "Research Profile", "link": "#" }
+          ]
+        },
+        {
+          "name": "Dr. Example Co-PI",
+          "role": "Co-Principal Investigator",
+          "image": "../../assets/galary/IMG_20251111_153306.jpg",
+          "image_side": "right",
+          "description": [
+            "Dr. Example Co-PI coordinates interdisciplinary collaborations on microgrids and storage.",
+            "Her work spans energy storage, optimization, and cyber-physical systems."
+          ],
+          "links": [
+            { "label": "Google Scholar", "link": "#" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "researchers",
+      "type": "researchers",
+      "title": "Researchers",
+      "background_type": "color",
+      "background_value": "#020617",
+      "background_image": "",
+      "title_color": "#e5e7eb",
+      "text_color": "#cbd5e1",
+      "title_size": "1.4rem",
+      "font_size": "0.92rem",
+
+      "image_width": "180px",
+      "image_shape": "rounded",
+
+      "items": [
+        {
+          "name": "John Doe",
+          "title": "Graduate Research Assistant",
+          "bio": "Focus: Power systems optimization and data-driven energy analytics.",
+          "image": "../../assets/galary/IMG_20251111_153306.jpg",
+          "image_width": "170px",
+          "image_shape": "circle",
+          "link": "#"
+        },
+        {
+          "name": "Jane Smith",
+          "title": "Research Intern",
+          "bio": "Working on microgrid planning, solar forecasting, and real-time control.",
+          "image": "../../assets/galary/IMG_20251111_153306.jpg",
+          "link": "#"
+        }
+      ]
+    },
+
+    {
+      "id": "group",
+      "type": "group",
+      "title": "Student & Research Team",
+      "background_type": "color",
+      "background_value": "#050816",
+      "background_image": "",
+      "title_color": "#e5e7eb",
+      "text_color": "#cbd5e1",
+      "title_size": "1.4rem",
+      "font_size": "0.9rem",
+
+      "image_width": "160px",
+      "image_shape": "rounded",
+
+      "items": [
+        {
+          "name": "Mahmud Rahman",
+          "designation": "Undergraduate Researcher",
+          "image": "../../assets/galary/IMG_20251111_153306.jpg"
+        },
+        {
+          "name": "Anika Noor",
+          "designation": "Research Volunteer",
+          "image": "../../assets/galary/IMG_20251111_153306.jpg"
+        },
+        {
+          "name": "Siam Haque",
+          "designation": "Graduate Research Fellow",
+          "image": "../../assets/galary/IMG_20251111_153306.jpg"
+        }
+      ]
+    }
+  ]
+}
