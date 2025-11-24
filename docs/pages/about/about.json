@@ -63,7 +63,7 @@
       "background_type": "color",
       "background_value": "linear-gradient(to bottom, #002b4d, #004970, #006793)",
       "background_image": "",
-      "image": "../../assets/about/partners.jpg",
+      "image": "../../assets/partners/partners.jpg",
       "content": [
         "We collaborate with utilities, manufacturers, engineering firms, and technology companies.",
         "These partnerships enable real-world validation, technology transfer, and impactful applied research."
@@ -78,11 +78,10 @@
       "background_type": "color",
       "background_value": "#0f172a",
       "background_image": "",
-      "image": "../../assets/about/facility.jpg",
+      "image": "../../assets/about/facilities.jpg",
       "content": [
         "Our center houses several specialized laboratories such as:",
         "- Smart Grid Laboratory",
-        "- High-Bay Testing Facility",
         "- Renewable Energy Research Room",
         "- Energy Storage Diagnostic Lab"
       ]

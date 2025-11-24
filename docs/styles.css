@@ -456,11 +456,13 @@ img {
 }
 
 .affiliates .section-header {
+  text-align: center ;
   margin-bottom: 2rem;
 }
 
 /* Auto-fit number of groups (Grid-Scale, Tech, Innovation, etc.) */
 .affiliates-groups {
+  text-align: center;
   max-width: var(--max-width);
   margin: 0 auto;
 
@@ -485,31 +487,28 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 0.7rem;
 }
-
-/* Partner boxes (fallback when no logo image) */
+/* CLEAN ACADEMIC PARTNER LOGO STYLE */
 .logo-placeholder {
-  border-radius: var(--radius-sm);
-  padding: 0.6rem 0.75rem;
-
-  background: #020617;
-  border: 1px dashed rgba(148, 163, 184, 0.5);
-  font-size: 0.8rem;
-  text-align: center;
-  color: var(--color-text-muted);
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  min-height: 45px;
+  min-height: auto !important;
 }
 
-/* Ensure logos scale nicely */
+/* Logos should appear clean, unboxed */
 .logo-placeholder img {
-  max-width: 100%;
-  max-height: 45px;
+  max-height: 55px;
+  width: auto;
   object-fit: contain;
+  display: block;
 }
+
 
 /* Optional: clickable partners look nicer */
 .logo-grid a {

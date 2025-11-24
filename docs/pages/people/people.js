@@ -85,9 +85,12 @@ function renderLeaderSection(parent, sec) {
     const frame = document.createElement("div");
     frame.classList.add("frame-full");
 
+    // Apply dominant color background
     if (item.image) {
-      frame.style.setProperty("--img", item.image);
-      frame.style.setProperty("background-image", `url("${item.image}")`);
+      getDominantColor(item.image, (color) => {
+        const gradient = `linear-gradient(135deg, ${color}, rgba(0,0,0,0.55))`;
+        frame.style.setProperty("--auto-bg", gradient);
+      });
     }
 
     const content = document.createElement("div");
@@ -135,27 +138,31 @@ function renderLeaderSection(parent, sec) {
   });
 }
 
+
 /*******************************************
  RESEARCHERS (FULL WIDTH BLUR FRAME)
 ********************************************/
 function renderResearcherSection(parent, sec) {
   (sec.items || []).forEach(item => {
 
-    // Full-width blurred frame
     const row = document.createElement("div");
     row.classList.add("researcher-row");
-    row.style.backgroundImage = `url("${item.image}")`;
 
-    // Main grid: image left, text right
+    // Dominant color background
+    if (item.image) {
+      getDominantColor(item.image, (color) => {
+        const gradient = `linear-gradient(135deg, ${color}, rgba(0,0,0,0.55))`;
+        row.style.setProperty("--auto-bg", gradient);
+      });
+    }
+
     const content = document.createElement("div");
     content.classList.add("researcher-content");
 
-    // IMAGE LEFT
     const img = document.createElement("img");
     img.src = item.image;
     applyImageSizeAndShape(img, item, sec);
 
-    // TEXT RIGHT
     const text = document.createElement("div");
     text.classList.add("researcher-text");
 
@@ -179,13 +186,14 @@ function renderResearcherSection(parent, sec) {
       text.appendChild(a);
     }
 
-    // Assemble
     content.appendChild(img);
     content.appendChild(text);
+
     row.appendChild(content);
     parent.appendChild(row);
   });
 }
+
 
 
 /*******************************************
@@ -238,3 +246,33 @@ function applyImageSizeAndShape(img, item, sec) {
   else if (shape === "square") img.classList.add("shape-square");
   else img.classList.add("shape-rounded");
 }
+
+function getDominantColor(imageSrc, callback) {
+  const img = new Image();
+  img.crossOrigin = "anonymous";
+  img.src = imageSrc;
+
+  img.onload = function () {
+    const canvas = document.createElement("canvas");
+    const ctx = canvas.getContext("2d");
+    canvas.width = 20;
+    canvas.height = 20;
+
+    ctx.drawImage(img, 0, 0, 20, 20);
+    const data = ctx.getImageData(0, 0, 20, 20).data;
+
+    let r=0, g=0, b=0;
+    for (let i=0; i<data.length; i+=4) {
+      r += data[i];
+      g += data[i+1];
+      b += data[i+2];
+    }
+
+    r = Math.round(r / (data.length/4));
+    g = Math.round(g / (data.length/4));
+    b = Math.round(b / (data.length/4));
+
+    callback(`rgb(${r},${g},${b})`);
+  };
+}
+

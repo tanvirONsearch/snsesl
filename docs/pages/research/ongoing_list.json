@@ -7,23 +7,9 @@
 
   "items": [
     {
-      "label": "Digital Twin for Microgrid Optimization",
+      "label": "DEVELOPMENT OF AN ARTIFICIAL INTELLIGENCE ENABLED DIGITAL TWIN OF A SOLAR PHOTOVOLTAIC PLANT TO ENHANCE RENEWABLE PENETRATION IN POWER GRID OF BANGLADESH",
       "pdf": "../../assets/research/agreement.pdf",
       "color": "#22c3ff",
-      "size": "1rem",
-      "glow": true
-    },
-    {
-      "label": "High Efficiency Solar Inverter Development",
-      "pdf": "../../assets/research/project2.pdf",
-      "color": "#cbd5e1",
-      "size": "0.95rem",
-      "glow": false
-    },
-    {
-      "label": "Hybrid Energy Storage System Study",
-      "pdf": "../../assets/research/project3.pdf",
-      "color": "#93c5fd",
       "size": "1rem",
       "glow": true
     }

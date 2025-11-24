@@ -32,32 +32,57 @@
 
       "items": [
         {
-          "name": "Dr. Example PI",
+          "name": "Major Shah Mohajjem Hossain, PhD",
           "role": "Principal Investigator",
-          "image": "../../assets/galary/IMG_20251111_153306.jpg",
+          "image": "../../assets/people/moajjemSir.jpg",
           "image_side": "left",
           "image_width": "300px",
           "image_shape": "rounded",
           "description": [
-            "Dr. Example PI leads the Smart & Sustainable Energy Systems Lab.",
-            "His research interests include power systems, renewable integration, and grid modernization."
+            "Dr. Shah leads the Smart & Sustainable Energy Systems Lab.",
+            "His research interests include Renewable Energy Technologies, Energy Harvesting and Storage, Power System Protection, Power System Reliability & Stability, Grid Integration of Inverter Based Resources and Application of AI in Power System and grid modernization."
+          ], 
+          "links": [
+            { "label": "Google Scholar", "link": "https://scholar.google.com/citations?user=c6w8HSEAAAAJ&hl=en&gmla=AJsN-F4nXEwyv6APg-Or4QvXhIR7ZlnjPBR4AZaqKsbQG7xpjZYjiSLG6NVyGnayoU2t2EeMZgkOTF96kirSCl5MEhgCV2NkiHG9xNyKEk70L3O7AjWMH9I&sciund=10031097862799281954" }
+          ]
+        },
+
+        {
+          "name": "Md Ahsan Kabir",
+          "role": "Co-Principal Investigator",
+          "image": "../../assets/people/ahsanSir.jpg",
+          "image_side": "right",
+          "description": [
+            "Mr. Ahsan coordinates interdisciplinary collaborations.",
+            "Her work spans Power system, Renewable Energy,  Smart Grid ,Energy Management, Demand Response, Energy Storage, Energy Audit, Artificial Intelligence, Machine and Deep Learning, Demand Forecasting"
           ],
           "links": [
-            { "label": "Google Scholar", "link": "#" },
-            { "label": "Research Profile", "link": "#" }
+            { "label": "Google Scholar", "link": "https://scholar.google.com/citations?user=Nt4Lv9AAAAAJ&hl=en" }
           ]
         },
         {
-          "name": "Dr. Example Co-PI",
+          "name": "Maj Mohammad Naim Uddin",
           "role": "Co-Principal Investigator",
-          "image": "../../assets/galary/IMG_20251111_153306.jpg",
-          "image_side": "right",
+          "image": "../../assets/people/Naim sir.jpg",
+          "image_side": "left",
           "description": [
-            "Dr. Example Co-PI coordinates interdisciplinary collaborations on microgrids and storage.",
-            "Her work spans energy storage, optimization, and cyber-physical systems."
+            "Maj. Naim oversees embedded systems and AI research initiatives.",
+            "His work spans Embedded Systems, Artificial Intelligence (AI), Microprocessors, Microcontrollers and Programmable Circuits, Robotics, Smart Power System System"
           ],
           "links": [
-            { "label": "Google Scholar", "link": "#" }
+            { "label": "Google Scholar", "link": "https://scholar.google.com/citations?hl=en&user=HGnWAGUAAAAJ&view_op=list_works&authuser=1&sortby=pubdate" }
+          ]
+        },{
+          "name": "Hasan Monir",
+          "role": "Lead Research Engineer",
+          "image": "../../assets/people/monirSir.jpg",
+          "image_side": "right",
+          "description": [
+            "Mr. Monir leads research teams and provides consultation on advanced engineering projects.",
+            "His work spans Power System and Energy Study"
+          ],
+          "links": [
+            { "label": "Google Scholar", "link": "https://scholar.google.com/citations?user=jmBR1XcAAAAJ&hl=en&authuser=1&oi=ao" }
           ]
         }
       ]
@@ -80,18 +105,25 @@
 
       "items": [
         {
-          "name": "John Doe",
+          "name": "Md Tanvir Rahman Sahed",
           "title": "Graduate Research Assistant",
-          "bio": "Focus: Power systems optimization and data-driven energy analytics.",
+          "bio": "Focus: AI/ML, Embedded Systems & IOT, Renewable Energy",
           "image": "../../assets/galary/IMG_20251111_153306.jpg",
           "image_width": "170px",
-          "image_shape": "circle",
+          "image_shape": "",
           "link": "#"
         },
         {
-          "name": "Jane Smith",
-          "title": "Research Intern",
-          "bio": "Working on microgrid planning, solar forecasting, and real-time control.",
+          "name": "Md. Sabbir Hossain Molla",
+          "title": "Graduate Research Assistant",
+          "bio": "Focus: AI/ML, Power Electronics",
+          "image": "../../assets/galary/IMG_20251111_153306.jpg",
+          "link": "#"
+        },
+        {
+          "name": "Rawnak Tanjim",
+          "title": "Graduate Research Assistant",
+          "bio": "AI/ML, Renewable Energy, Cyber-Security",
           "image": "../../assets/galary/IMG_20251111_153306.jpg",
           "link": "#"
         }
@@ -101,7 +133,7 @@
     {
       "id": "group",
       "type": "group",
-      "title": "Student & Research Team",
+      "title": "Group Members",
       "background_type": "color",
       "background_value": "#050816",
       "background_image": "",
@@ -115,18 +147,18 @@
 
       "items": [
         {
-          "name": "Mahmud Rahman",
-          "designation": "Undergraduate Researcher",
+          "name": "Md Razon Hossain",
+          "designation": "Plant Engineer(O&M)",
           "image": "../../assets/galary/IMG_20251111_153306.jpg"
         },
         {
-          "name": "Anika Noor",
-          "designation": "Research Volunteer",
+          "name": "Janibul Huq",
+          "designation": "Project Associate",
           "image": "../../assets/galary/IMG_20251111_153306.jpg"
         },
         {
-          "name": "Siam Haque",
-          "designation": "Graduate Research Fellow",
+          "name": "Minhajul Islam",
+          "designation": "Project Assistant",
           "image": "../../assets/galary/IMG_20251111_153306.jpg"
         }
       ]

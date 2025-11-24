@@ -73,16 +73,16 @@ body {
   overflow: hidden;
 }
 
-.frame-full::before {
+.frame-full::before,
+.researcher-row::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-size: cover;
-  background-position: center;
-  filter: blur(22px) brightness(0.35);
-  opacity: 0.5;
+  background: var(--auto-bg, rgba(255,255,255,0.04));
+  opacity: 1;
   z-index: 0;
 }
+
 
 /* all content inside must rise above blur */
 .frame-content {
