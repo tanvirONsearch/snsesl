@@ -107,8 +107,8 @@
         {
           "name": "Md Tanvir Rahman Sahed",
           "title": "Graduate Research Assistant",
-          "bio": "Focus: AI/ML, Embedded Systems & IOT, Renewable Energy",
-          "image": "../../assets/galary/IMG_20251111_153306.jpg",
+          "bio": "Focus: AI/ML, Embedded Systems & IOT, Robotics & Automation, Renewable Energy",
+          "image": "../../assets/people/tanvir.jpg",
           "image_width": "170px",
           "image_shape": "",
           "link": "#"
@@ -117,14 +117,14 @@
           "name": "Md. Sabbir Hossain Molla",
           "title": "Graduate Research Assistant",
           "bio": "Focus: AI/ML, Power Electronics",
-          "image": "../../assets/galary/IMG_20251111_153306.jpg",
+          "image": "../../assets/people/sabbir.jpg",
           "link": "#"
         },
         {
           "name": "Rawnak Tanjim",
           "title": "Graduate Research Assistant",
           "bio": "AI/ML, Renewable Energy, Cyber-Security",
-          "image": "../../assets/galary/IMG_20251111_153306.jpg",
+          "image": "../../assets/people/rawnak.jpg",
           "link": "#"
         }
       ]
@@ -149,17 +149,17 @@
         {
           "name": "Md Razon Hossain",
           "designation": "Plant Engineer(O&M)",
-          "image": "../../assets/galary/IMG_20251111_153306.jpg"
+          "image": "../../assets/people/razon.jpg"
         },
         {
           "name": "Janibul Huq",
           "designation": "Project Associate",
-          "image": "../../assets/galary/IMG_20251111_153306.jpg"
+          "image": "../../assets/people/def.jpg"
         },
         {
           "name": "Minhajul Islam",
           "designation": "Project Assistant",
-          "image": "../../assets/galary/IMG_20251111_153306.jpg"
+          "image": "../../assets/people/def.jpg"
         }
       ]
     }
